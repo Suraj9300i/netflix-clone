@@ -1,0 +1,47 @@
+.Banner {
+  width: 100vw;
+  height: 35rem;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  margin: auto 0;
+  position: relative;
+}
+.Banner-center {
+  position: absolute;
+  left: 2rem;
+  bottom: 6rem;
+}
+.Banner__title {
+  font-size: 5rem;
+}
+.Banner__Buttons {
+  margin: 1rem 0;
+}
+.Banner__Buttons-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+  padding: 0.8rem 2.5rem;
+  background-color: rgba(80, 75, 75, 0.5);
+  color: white;
+  font-size: 1.5rem;
+  transition: all 300ms;
+}
+.Banner__Buttons-button:hover {
+  background-color: rgb(256, 256, 256);
+  color: black;
+}
+.Banner__discription {
+  font-size: 1.8rem;
+  line-height: 1.3;
+  width: 50%;
+}
+.Banner-gradient {
+  height: 5rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(180deg, #221f1f33, #221f1f8f);
+}
