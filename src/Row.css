@@ -1,0 +1,27 @@
+.Row {
+  margin: 2rem 0;
+}
+.Row__title {
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.Row__posters {
+  padding: 2rem;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.Row__posters::-webkit-scrollbar {
+  display: none;
+}
+.Row__posters-poster {
+  height: 18rem;
+  object-fit: contain;
+  margin-right: 1rem;
+  transition: all 200ms;
+}
+.Row__posters-poster:hover {
+  transform: scale(1.1);
+}

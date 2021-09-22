@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Banner.css";
+import Navbar from "./Navbar";
 import requests from "./request";
 
 let Banner = ({ url }) => {
@@ -37,6 +38,8 @@ let Banner = ({ url }) => {
           )`,
         }}
       >
+        <Navbar></Navbar>
+
         <div className="Banner-center">
           <h1 className="Banner__title">
             {movie?.name ||

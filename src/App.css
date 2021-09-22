@@ -8,5 +8,7 @@ html {
 }
 
 body {
-  background-color: #221f1f;
+  background-color: #111;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }

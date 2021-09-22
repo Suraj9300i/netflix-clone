@@ -39,9 +39,14 @@
   width: 50%;
 }
 .Banner-gradient {
-  height: 5rem;
+  height: 6rem;
   width: 100%;
   position: absolute;
   bottom: 0;
-  background-image: linear-gradient(180deg, #221f1f33, #221f1f8f);
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(35, 35, 35, 0),
+    #111
+  );
 }
