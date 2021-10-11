@@ -40,7 +40,8 @@ let Row = ({ title, url }) => {
       .catch((e) => {
         console.log(e);
       });
-    setTrailerID(trailer.split("https://www.youtube.com/watch?v=")[1]);
+    trailer &&
+      setTrailerID(trailer.split("https://www.youtube.com/watch?v=")[1]);
   }
 
   return (
