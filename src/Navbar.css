@@ -12,7 +12,13 @@
 .Navbar__avatar {
   height: 3rem;
   margin-right: 2rem;
+  cursor: pointer;
 }
 .Navbar-background {
   background-color: #111;
+}
+.title{
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+  color: #3ea5e9;
 }

@@ -1,0 +1,73 @@
+.LoginScreen {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#6e2812, #ce203c, #f8002f);
+}
+.LoginBox {
+  height: 35rem;
+  width: 40rem;
+  background-color: #000c146c;
+  border-radius: 2rem;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+.LoginBox__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+  font-family: "EB Garamond", serif;
+  color: #2587c9;
+}
+.LoginBox-mailboxLogo {
+  height: 40px;
+}
+.LoginBox-title {
+  font-size: 3rem;
+}
+.LoginBox__main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  outline: none;
+  border: none;
+  width: 80%;
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 100px;
+  text-align: center;
+}
+.login_button {
+  outline: none;
+  border: none;
+  padding: 1rem 5rem;
+  background-color: #7f7fd5;
+  color: white;
+  border-radius: 100px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.login_button:hover {
+  background-color: #6565be;
+}
+.LoginBox__main-socialmedia {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+.LoginBox__main-socialmedia svg {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}

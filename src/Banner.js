@@ -3,7 +3,7 @@ import "./Banner.css";
 import Navbar from "./Navbar";
 import requests from "./request";
 
-let Banner = ({ url }) => {
+let Banner = ({ url}) => {
   let [movie, setMovie] = useState();
   useEffect(() => {
     async function fun() {
